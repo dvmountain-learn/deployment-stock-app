@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="container">
+    <div id="stock">
+        <div id="side-form">
+            <form id="stock-form">
+                <h3>Create Product in Stock</h3>
+                <label for="">Product Name</label><br>
+                <input type="text" id="product-name"><br>
+                <label for="">Quantity</label><br>
+                <input type="number" id="product-qty"><br>
+                <label for="">Unit Price</label><br>
+                <input type="number" id="product-price"><br>
+                <label for="">Status</label><br>
+                <select name="" id="select-status"><br>
+                    <option value="New">New</option>
+                    <option value="Used">Used</option>
+                </select><br>
+                <label for="">Description</label><br>
+                <textarea id="product-desc" rows="10"></textarea><br>
+                <button id="save-btn">Save</button>
+            </form>
+        </div>
+    </div>
+    <div id="side-list">
+        <h3 id="stock-title">Stocks</h3>
+        <hr>
+        <div class="stocks-item">
+
+        </div>
+        <div id="clear"></div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
