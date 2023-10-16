@@ -24,4 +24,4 @@ app.put("/api/stocks/:id", updateStock);
 
 app.delete("/api/stocks/:id", deleteStock);
 
-app.listen(4000, () => console.log("Server running on 4000"));
+app.listen(4004, () => console.log("Server running on 4000"));
